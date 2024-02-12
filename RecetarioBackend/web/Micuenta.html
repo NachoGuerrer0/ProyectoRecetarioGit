@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Cuenta</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="banner banner-top">
+            <h1>Mi Cuenta</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class=" banner banner-left">
+            <nav>
+                <ul>
+                    <li><a href="./index.html" class="menu-button">Inicio</a></li>
+                    <li><a href="./RecetasPopulares.html" class="menu-button">Recetas Populares</a></li>
+                    <li><a href="./BuscarRecetas.html" class="menu-button">Buscar Recetas</a></li>
+                    <li><a href="./AgregarReceta.html" class="menu-button">Agregar Receta</a></li>
+                    <li><a href="./InicioSesion.html" class="menu-button">Iniciar Sesión</a></li>
+                    <li><a href="./Micuenta.html" class="menu-button">Mi Cuenta</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="formulario-mi-cuenta">
+            <div id="mi-cuenta-info">
+                <h2>Informacion del usuario</h2>
+                <!-- muestra la informacion del usuario-->
+            </div>
+    
+            <div id="cambiar-contrasena">
+                <h2>cambiar contraseña</h2>
+                <!--Formulario para cambiar la contraseña-->
+                <form>
+                    <label for="nueva-contrasena">Nueva contraseña: </label>
+                    <input type="password" id="nueva-contrasena" name="nueva-contrasena" required>
+                    <button id="cambiar-contrasena-btn">Cambiar contraseña</button>
+                </form>
+            </div>
+    
+            <div id="recetas-subidas">
+                <h2>Recetas subidas</h2>
+                <!--Mostrar recetas subidas-->
+            </div>
+    
+            <div id="eliminar-cuenta">
+                <h2>Eliminar cuenta</h2>
+                <!--Eliminar cuenta-->
+                <p>¿Estás seguro que deseas eliminar tu cuenta?</p>
+                <button id="eliminar-cuenta-btn">Eliminar cuenta</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

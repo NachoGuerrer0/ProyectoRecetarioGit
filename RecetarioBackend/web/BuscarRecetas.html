@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Recetas</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="banner banner-top">
+            <h1>Buscar Recetas</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class=" banner banner-left">
+            <nav>
+                <ul>
+                    <li><a href="./index.html" class="menu-button">Inicio</a></li>
+                    <li><a href="./RecetasPopulares.html" class="menu-button">Recetas Populares</a></li>
+                    <li><a href="./BuscarRecetas.html" class="menu-button">Buscar Recetas</a></li>
+                    <li><a href="./AgregarReceta.html" class="menu-button">Agregar Receta</a></li>
+                    <li><a href="./InicioSesion.html" class="menu-button">Iniciar Sesión</a></li>
+                    <li><a href="./Micuenta.html" class="menu-button">Mi Cuenta</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="buscar-recetas">
+            <h2>Buscar recetas</h2>
+            <form id="formulario-busqueda">
+                <label for="tipo-coccion"></label>
+                <select name="tipo-coccion" id="tipo-coccion">
+                    <option value="horno">Horno</option>
+                    <option value="microondas">Microondas</option>
+                    <option value="air-fryer">Air Fryer</option>
+                    <option value="otros">Otros</option>
+                </select>
+
+                <label for="ingrediente">Ingrediente: </label>
+                <input type="text" id="ingrediente" name="ingrediente" placeholder="Ingrese un ingrediente">
+
+                <button type="submit">Buscar</button>
+            </form>
+
+            <div id="resultado-busqueda">
+                <!--Se mostraran los resultados de la busqueda-->
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
